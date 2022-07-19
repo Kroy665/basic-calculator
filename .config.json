@@ -1,7 +1,6 @@
 {
     "scripts": {
-        
-        "install": "sudo apt install docker.io; systemctl start docker; systemctl enable docker; docker pull ghost",
-        "run": "docker run -d --name fast_ghost -e url=http://localhost:3001 -p 3001:2368 ghost"
+        "install": "npm install",
+        "run": "npm start"
     }
 }
